@@ -1,0 +1,39 @@
+int pot = 0;
+int analogValue = 0;
+int led = 3;
+int led2 = 4;
+int potValue =0;
+
+void setup() {
+  pinMode(led,OUTPUT);
+  pinMode(led2,OUTPUT);
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  analogValue = analogRead(pot);
+  Serial.print ("AnalogValue =");
+  Serial.println(analogValue);
+/*
+    if(analogValue <=512){
+    digitalWrite(led,HIGH);
+    digitalWrite(led2,LOW);
+  }else{
+    digitalWrite(led,LOW);
+    digitalWrite(led2,HIGH);
+    }
+    */
+if (analogValue <= 512) {
+    digitalWrite(led,HIGH);
+    digitalWrite(led2,LOW);
+}
+else if (analogValue > 512) {
+    digitalWrite(led,LOW);
+    digitalWrite(led2,HIGH);
+}else{
+  digitalWrite(led,LOW);
+  digitalWrite(led2,LOW);
+}
+    
+}
