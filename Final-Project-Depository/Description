@@ -8,7 +8,10 @@ Partner: Kenny Silver
 DOCUMENTATION
 
 
-	For your final project, we created reciprocal game of Family Feud. The game is pretty much simple. The programs will ask a question and based on your answer, the program will either say  “correct” or “wrong”. It will also trigger a sound based on your answer. The program will not keep running until you input the right answer. Then and only then it will move to the following question. 
+	For your final project, we created reciprocal game of Family Feud. The game is pretty much simple.
+	The programs will ask a question and based on your answer, the program will either say  “correct” or “wrong”. 
+	It will also trigger a sound based on your answer. The program will not keep running until you input the right answer. 
+	Then and only then it will move to the following question. 
 
 
 Positive side:
@@ -18,4 +21,6 @@ Positive side:
 
 Negative side:
 
-	We were hoping to create a list since most answers in Family Feud has a lot of various answers in order to make it easier and a lot more fun to play with. But we are not quite familiar with the use of the function yet unfortunately. Plus, different users might have different answers, which means even if they have some right answer and wrongs, we are not able to apply that yet.
+	We were hoping to create a list since most answers in Family Feud has a lot of various answers in order to make it easier and a
+	lot more fun to play with. But we are not quite familiar with the use of the function yet unfortunately. Plus, different users
+	might have different answers, which means even if they have some right answer and wrongs, we are not able to apply that yet.
